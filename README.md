@@ -20,8 +20,17 @@ out compatibility over time.
 Building
 ========
 
+Ubuntu:
+
     apt-get install scons libevent-dev gengetopt libzmq-dev
     scons
+
+OSX (tested on 10.9):
+
+    brew install scons
+    brew install gengetopt
+    scons
+
 
 Basic Usage
 ===========
